@@ -88,7 +88,7 @@ settings:
 
 ## 📋 Compatibility
 
-- **Minecraft Versions**: 1.17+
+- **Minecraft Versions**: 1.18+
 - **Server Software**: Spigot, Paper, Purpur
 - **Java**: 17+
 
