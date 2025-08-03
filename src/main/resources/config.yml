@@ -1,0 +1,45 @@
+# ohFirstSpawn Configuration File
+
+# Spawn configuration
+spawn:
+  world: ""
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+# List of players who already spawned for the first time
+players: []
+
+# Customizable messages (supports color codes with &)
+messages:
+  # Command messages
+  only-player: "&cThis command can only be executed by a player!"
+  no-permission: "&cYou don't have permission to use this command!"
+  usage: "&cUsage: /ofs set | /ofs info"
+
+  # Spawn set messages
+  spawn-set: "&aSpawn for new players set successfully!"
+  spawn-position: "&7Position: &f{x}, {y}, {z} &7in world &f{world}"
+  spawn-rotation: "&7Yaw: &f{yaw} &7Pitch: &f{pitch}"
+
+  # Info messages
+  spawn-info: "&aSpawn configured:"
+  spawn-world: "&7World: &f{world}"
+  spawn-coordinates: "&7Coordinates: &f{x}, {y}, {z}"
+  spawn-not-configured: "&cSpawn not configured yet!"
+  spawn-load-error: "&cError loading spawn!"
+  players-processed: "&7Players processed: &f{count}"
+
+
+# Plugin settings
+settings:
+  # Delay in ticks before teleport (20 ticks = 1 second)
+  teleport-delay: 20
+
+  # Enable sounds on teleport
+  play-sounds: true
+
+  # Sound to play (only if play-sounds is true)
+  teleport-sound: "ENTITY_ENDERMAN_TELEPORT"

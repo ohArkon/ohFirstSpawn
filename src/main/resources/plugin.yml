@@ -1,0 +1,17 @@
+name: ohFirstSpawn
+version: 1.0.0
+main: it.oharkon.ohFirstSpawn
+api-version: 1.18
+author: ohArkon
+description: Plugin for FirstSpawn of the players
+
+commands:
+  ofs:
+    description: Set the First Spawn location
+    usage: /ofs set
+    permission: ohfirstspawn.set
+
+permissions:
+  ohfirstspawn.set:
+    description: Permission for set First Spawn location
+    default: op
