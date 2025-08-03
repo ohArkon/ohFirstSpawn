@@ -122,7 +122,7 @@ Simply replace the default config with your preferred language version.
 This project uses Maven for dependency management and building.
 
 ```bash
-git clone https://github.com/yourusername/ohFirstSpawn.git
+git clone https://github.com/ohArkon/ohFirstSpawn.git
 cd ohFirstSpawn
 mvn clean package
 ```
@@ -148,8 +148,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 If you encounter any issues or have questions:
 
 - Create an [Issue](../../issues) on GitHub
-- Check the [Wiki](../../wiki) for documentation
-- Join our [Discord](https://discord.gg/yourserver) (if applicable)
 
 ## ⭐ Star History
 
