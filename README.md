@@ -34,7 +34,7 @@ The plugin features a comprehensive `config.yml` where you can customize:
 ### Example Configuration
 
 ```yaml
-[code=YAML]# ohFirstSpawn Configuration File
+# ohFirstSpawn Configuration File
 
 # Spawn configuration
 spawn:
@@ -78,7 +78,6 @@ settings:
  
   # Sound to play (only if play-sounds is true)
   teleport-sound: ENTITY_ENDERMAN_TELEPORT
-[/code]
 ```
 
 ## 🔐 Permissions
